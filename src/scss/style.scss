@@ -1,0 +1,70 @@
+@import '~bootstrap';
+
+body{
+    background: linear-gradient(to right,#e66465, #9198e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.main-button{
+
+    background-color:darkcyan;
+    height: 50px;
+    width: 150px;
+    border: none;
+
+}
+
+
+
+.motivation-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 181, 181);
+    margin: 20px;
+    height: 150px;
+    width: 500px;
+
+    &__url{
+        margin: 15px;
+        width: 80%;
+
+    }
+
+    &__text{
+        margin: 15px;
+        width: 80%;
+
+    }
+}
+
+.motivation-list{
+    height: 100%;
+    background-color: rgb(222, 175, 175);
+    margin-top: 20px;
+}
+
+.motivation-container{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 50px;
+    background-color: black;
+    text-align: center;
+
+
+        &__image{
+            height: 200px;
+            width: 100%;
+            margin-bottom: 15px;
+            
+        }
+
+        &__text{
+            color: aliceblue;
+            font-size: 26px;
+        }
+}
